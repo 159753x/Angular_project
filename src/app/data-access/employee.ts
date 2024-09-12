@@ -1,0 +1,1 @@
+export type Employee = {EmployeeName:string, TimeWorked: number}

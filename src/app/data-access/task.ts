@@ -1,0 +1,1 @@
+export type Task = {EmployeeName:string, StarTimeUtc:Date | string, EndTimeUtc:Date | string, EntryNotes: string, DeletedOn: Date | string}

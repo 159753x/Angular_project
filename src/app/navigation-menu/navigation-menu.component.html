@@ -1,0 +1,19 @@
+<div class="header">
+<header class="burger-menu">
+    <button class="burger-button" (click)="toggleMenu($event)">
+        &#9776;
+    </button>
+    <div class="overlay" *ngIf="menuOpen" (click)="closeMenu()">
+        <nav [class.open]="menuOpen">
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/employee">Employee Table</a></li>
+                <!-- <li>Employee Pie Chart</li> -->
+            </ul>
+        </nav>
+    </div>
+</header>
+
+</div>
+
+

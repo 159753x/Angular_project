@@ -1,0 +1,28 @@
+<!-- <div>
+    <h1>Zaposleni</h1>
+    <div *ngFor = 'let employee of employees'>
+        <span>{{employee.EmployeeName}}</span>
+        <span>{{convertToHours(employee.TimeWorked)}} hours</span>
+    </div>
+</div> -->
+
+<div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Employee Name</th>
+          <th>Hours Worked</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees; index as i">
+          <td>{{ i + 1 }}</td>
+          <td>{{ employee.EmployeeName }}</td>
+          <td>{{ convertToHours(employee.TimeWorked) }} hours</td>
+          <td><a>Edit</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
