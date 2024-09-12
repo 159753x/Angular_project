@@ -6,7 +6,18 @@
 
 header {
     font-family: 'Roboto', sans-serif;
-    background-color: #333;
+    // background-color: #444;
+    position: relative;
+    width: 100%;
+}
+
+.title{
+  // position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%,-50%);
+  // color: #fff;
+  text-align: center;
 }
 
 
@@ -18,13 +29,17 @@ header {
   }
   
   .burger-button {
-    font-size: 24px;
+    font-size: 40px;
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding-bottom: 5px;
     position: absolute;
+    width: 60px;
+    height: 60px;
+    border: #aaa solid 2px;
+    border-radius: 15%;
   }
   
   nav {

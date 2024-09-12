@@ -1,0 +1,13 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px) !important;
+    width: 100vw;
+    padding: 20px;
+}
+
+canvas {
+    height: 80%;
+    width: auto !important;
+}
